@@ -7,20 +7,20 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage extends TestBase {
     @FindBy(name = "email")
-    WebElement emailInput;
+    private WebElement emailInput;
     @FindBy(name = "password")
-    WebElement passwordInput;
+    private WebElement passwordInput;
     @FindBy(className = "submit")
-    WebElement loginButton;
-    @FindBy(css = "#container > div")
-    WebElement accessWithGoogle;
+    private WebElement loginButton;
+    @FindBy(id = "container")
+    private WebElement accessWithGoogle;
     @FindBy(linkText = "Forgot your password?")
-    WebElement forgotPasswordLink;
+    private WebElement forgotPasswordLink;
     @FindBy(linkText = "Sign Up")
-    WebElement signUpLink;
+    private WebElement signUpLink;
 
     public LoginPage(){
-        PageFactory.initElements(driver, this);
+        PageFactory.initElements(driver,this);
     }
 
     public String  validateLoginPageTitle(){
@@ -28,6 +28,7 @@ public class LoginPage extends TestBase {
     }
 
     public boolean validateAccessWithGoogle(){
+        driver.switchTo().frame(0);
         return accessWithGoogle.isDisplayed();
     }
 
@@ -38,14 +39,19 @@ public class LoginPage extends TestBase {
     public void typeOnLogin(String email, String password){
         if (email != null && password != null) {
             emailInput.sendKeys(email);
-            passwordInput.sendKeys(prop.getProperty("user"));
+            passwordInput.sendKeys(password);
         } else {
             System.out.println("Username or password is null.");
         }
     }
 
-    public HomePage clickOnLogin(){
+    public IndexPage clickOnLoginButton(){
         loginButton.click();
-        return new HomePage();
+        return new IndexPage();
+    }
+
+    public SignUpPage clickOnSignUpLink(){
+        signUpLink.click();
+        return new SignUpPage();
     }
 }

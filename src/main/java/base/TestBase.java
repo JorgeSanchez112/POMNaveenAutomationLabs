@@ -2,7 +2,6 @@ package base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chromium.ChromiumDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import util.TestUtil;
 
@@ -15,6 +14,7 @@ public class TestBase {
 
     public static WebDriver driver;
     public static Properties prop;
+
 
     public TestBase() {
         try {
