@@ -5,7 +5,7 @@
         <classes>
             <class name="testcases.LoginPageTest"/>
             <class name="testcases.IndexPageTest"/>
-            <!--<class name="">Contact Page Test</class>-->
+            <class name="testcases.ContactsPageTest"/>
         </classes>
     </test>
 

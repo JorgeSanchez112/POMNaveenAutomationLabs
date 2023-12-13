@@ -45,9 +45,9 @@ public class LoginPage extends TestBase {
         }
     }
 
-    public IndexPage clickOnLoginButton(){
+    public HomePage clickOnLoginButton(){
         loginButton.click();
-        return new IndexPage();
+        return new HomePage();
     }
 
     public SignUpPage clickOnSignUpLink(){
