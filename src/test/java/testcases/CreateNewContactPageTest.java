@@ -7,7 +7,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.*;
-import util.TestUtil;
 
 public class CreateNewContactPageTest extends TestBase {
 
@@ -41,7 +40,7 @@ public class CreateNewContactPageTest extends TestBase {
 
     @DataProvider
     public Object[][] getCRMTestData(){
-        Object data[][] = TestUtil.getTestData(sheetName);
+        Object data[][] = util.TestUtil.getTestData(sheetName);
         return data;
     }
 
