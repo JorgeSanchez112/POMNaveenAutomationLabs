@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b79928f-8e0c-4df7-8d65-02d8d082c4c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/extentReportListener/ExtentReportNG.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/WebEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/WebEventListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +58,7 @@
       <recent name="C:\Users\Jorge\IdeaProjects\POMNaveenAutomationLabs\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/Jorge/IdeaProjects/POMNaveenAutomationLabs/src/main/resources/testNG.xml">
+  <component name="RunManager" selected="TestNG.HomePageTest">
     <configuration name="C:/Users/Jorge/IdeaProjects/POMNaveenAutomationLabs/src/main/resources/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMNaveenAutomationLabs" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testNG.xml" />
@@ -70,7 +69,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateNewContactPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMNaveenAutomationLabs" />
       <extension name="coverage">
         <pattern>
@@ -79,7 +78,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.CreateNewContactPageTest" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HomePageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -87,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreateNewContactPageTest.validateCreateNewContact" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.isContactsLinkVisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMNaveenAutomationLabs" />
       <extension name="coverage">
         <pattern>
@@ -96,8 +95,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.CreateNewContactPageTest" />
-      <option name="METHOD_NAME" value="validateCreateNewContact" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HomePageTest" />
+      <option name="METHOD_NAME" value="isContactsLinkVisible" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,7 +104,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DealsPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.isDealsLinkVisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMNaveenAutomationLabs" />
       <extension name="coverage">
         <pattern>
@@ -114,15 +113,16 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.DealsPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HomePageTest" />
+      <option name="METHOD_NAME" value="isDealsLinkVisible" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TasksPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HomePageTest.isTasksLinkVisible" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMNaveenAutomationLabs" />
       <extension name="coverage">
         <pattern>
@@ -131,8 +131,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.TasksPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="testcases.HomePageTest" />
+      <option name="METHOD_NAME" value="isTasksLinkVisible" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -141,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTest" />
+        <item itemvalue="TestNG.HomePageTest.isTasksLinkVisible" />
+        <item itemvalue="TestNG.HomePageTest.isDealsLinkVisible" />
+        <item itemvalue="TestNG.HomePageTest.isContactsLinkVisible" />
         <item itemvalue="TestNG.C:/Users/Jorge/IdeaProjects/POMNaveenAutomationLabs/src/main/resources/testNG.xml" />
-        <item itemvalue="TestNG.CreateNewContactPageTest.validateCreateNewContact" />
-        <item itemvalue="TestNG.CreateNewContactPageTest" />
-        <item itemvalue="TestNG.TasksPageTest" />
-        <item itemvalue="TestNG.DealsPageTest" />
       </list>
     </recent_temporary>
   </component>

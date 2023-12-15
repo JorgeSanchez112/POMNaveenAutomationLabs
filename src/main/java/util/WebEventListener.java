@@ -4,7 +4,6 @@ import base.TestBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
-import java.io.IOException;
 
 public class WebEventListener extends TestBase implements WebDriverEventListener {
 
@@ -121,22 +120,23 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
     @Override
     public void onException(Throwable throwable, WebDriver driver) {
         System.out.println("Exception occurred: " + throwable);
-        try{
+        /*try{
             util.TestUtil.takeScreenShotAtEndOfTest();
         } catch (IOException e){
             e.printStackTrace();
-        }
+        }*/
     }
 
     @Override
     public <X> void beforeGetScreenshotAs(OutputType<X> target) {
-        System.out.println("point before screenshot: " + target.toString());
+
     }
 
     @Override
     public <X> void afterGetScreenshotAs(OutputType<X> target, X screenshot) {
-        System.out.println("coordinates taken of screenshot: " + target.toString());
+
     }
+
 
     @Override
     public void beforeGetText(WebElement element, WebDriver driver) {

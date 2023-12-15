@@ -12,6 +12,10 @@
             <class name="testcases.LoginPageTest"/>
             <class name="testcases.IndexPageTest"/>
             <class name="testcases.ContactsPageTest"/>
+            <class name="testcases.CreateNewContactPageTest"/>
+            <class name="testcases.HomePageTest"/>
+            <class name="testcases.DealsPageTest"/>
+            <class name="testcases.TasksPageTest"/>
         </classes>
     </test>
 
