@@ -28,7 +28,7 @@ public class LoginPage extends TestBase {
     }
 
     public boolean validateAccessWithGoogle(){
-        driver.switchTo().frame(0);
+        util.TestUtil.switchToFrameForIndex(0);
         return accessWithGoogle.isDisplayed();
     }
 
@@ -50,8 +50,4 @@ public class LoginPage extends TestBase {
         return new HomePage();
     }
 
-    public SignUpPage clickOnSignUpLink(){
-        signUpLink.click();
-        return new SignUpPage();
-    }
 }

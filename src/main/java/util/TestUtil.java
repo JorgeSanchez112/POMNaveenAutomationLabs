@@ -86,4 +86,7 @@ public class TestUtil {
         FileUtils.copyFile(scrFile,new File(CURRENT_DIRECTORY + "\\screenshots\\" + System.currentTimeMillis() + ".png"));
     }
 
+    public static void switchToFrameForIndex(int index){
+        driver.switchTo().frame(index);
+    }
 }

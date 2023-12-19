@@ -28,7 +28,7 @@ public class LoginPageTest extends TestBase {
         Assert.assertEquals(loginPage.validateLoginPageTitle(),"Cogmento CRM");
     }
 
-    @Test
+    @Test()
     public void isAccessWithGoogleVisible(){
         Assert.assertTrue(loginPage.validateAccessWithGoogle());
     }

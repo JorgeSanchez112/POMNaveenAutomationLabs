@@ -5,6 +5,7 @@
     
     <listeners>
         <listener class-name="extentReportListener.ExtentReportNG"/>
+        <listener class-name="util.MyTransformer"/>
     </listeners>
     
     <test name="FRee CRM APP Test Cases">

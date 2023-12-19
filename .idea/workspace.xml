@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b79928f-8e0c-4df7-8d65-02d8d082c4c7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/MyTransformer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/RetryAnalyzer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/SignUpPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/TestUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/Extent.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +63,17 @@
       <recent name="C:\Users\Jorge\IdeaProjects\POMNaveenAutomationLabs\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTest.isAccessWithGoogleVisible">
+  <component name="RunManager" selected="TestNG.C:/Users/Jorge/IdeaProjects/POMNaveenAutomationLabs/src/main/resources/testng.xml">
+    <configuration name="C:/Users/Jorge/IdeaProjects/POMNaveenAutomationLabs/src/main/resources/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="POMNaveenAutomationLabs" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/resources/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HomePageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="POMNaveenAutomationLabs" />
       <extension name="coverage">
@@ -68,24 +85,6 @@
       <option name="PACKAGE_NAME" value="testcases" />
       <option name="MAIN_CLASS_NAME" value="testcases.HomePageTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HomePageTest.isContactsLinkVisible" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="POMNaveenAutomationLabs" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testcases.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testcases" />
-      <option name="MAIN_CLASS_NAME" value="testcases.HomePageTest" />
-      <option name="METHOD_NAME" value="isContactsLinkVisible" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -148,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Jorge/IdeaProjects/POMNaveenAutomationLabs/src/main/resources/testng.xml" />
         <item itemvalue="TestNG.LoginPageTest.isAccessWithGoogleVisible" />
         <item itemvalue="TestNG.HomePageTest" />
         <item itemvalue="TestNG.HomePageTest.isTasksLinkVisible" />
         <item itemvalue="TestNG.HomePageTest.isDealsLinkVisible" />
-        <item itemvalue="TestNG.HomePageTest.isContactsLinkVisible" />
       </list>
     </recent_temporary>
   </component>
