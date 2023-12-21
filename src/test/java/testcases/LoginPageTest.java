@@ -1,6 +1,9 @@
 package testcases;
 
 import base.TestBase;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import jdk.jfr.Category;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -23,22 +26,26 @@ public class LoginPageTest extends TestBase {
         loginPage = indexPage.clickOnLogInButton();
     }
 
-    @Test
+    @Test(description = "Verify correct page title")
+    @Severity(SeverityLevel.MINOR)
     public void loginPageTitleTest(){
         Assert.assertEquals(loginPage.validateLoginPageTitle(),"Cogmento CRM");
     }
 
-    @Test()
+    @Test(description = "Verify google login method visible")
+    @Severity(SeverityLevel.NORMAL)
     public void isAccessWithGoogleVisible(){
         Assert.assertTrue(loginPage.validateAccessWithGoogle());
     }
 
-    @Test
+    @Test(description = "Verify password recover method is visible")
+    @Severity(SeverityLevel.NORMAL)
     public void isForgotPasswordVisible(){
         Assert.assertTrue(loginPage.validateForgotPassword());
     }
 
-    @Test
+    @Test(description = "Verify login success")
+    @Severity(SeverityLevel.CRITICAL)
     public void loginTest(){
         loginPage.typeOnLogin(prop.getProperty("email"),prop.getProperty("password"));
         loginPage.clickOnLoginButton();

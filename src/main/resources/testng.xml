@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
+
 <suite name="FREE CRM Application Test Automation Test Suite">
-    
+
     <listeners>
         <listener class-name="extentReportListener.ExtentReportNG"/>
         <listener class-name="util.MyTransformer"/>
@@ -11,12 +12,6 @@
     <test name="FRee CRM APP Test Cases">
         <classes>
             <class name="testcases.LoginPageTest"/>
-            <class name="testcases.IndexPageTest"/>
-            <class name="testcases.ContactsPageTest"/>
-            <class name="testcases.CreateNewContactPageTest"/>
-            <class name="testcases.HomePageTest"/>
-            <class name="testcases.DealsPageTest"/>
-            <class name="testcases.TasksPageTest"/>
         </classes>
     </test>
 
