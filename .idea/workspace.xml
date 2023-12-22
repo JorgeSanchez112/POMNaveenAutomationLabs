@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b79928f-8e0c-4df7-8d65-02d8d082c4c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/WebEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/WebEventListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/Extent.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

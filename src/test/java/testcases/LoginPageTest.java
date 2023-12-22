@@ -3,7 +3,6 @@ package testcases;
 import base.TestBase;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
-import jdk.jfr.Category;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;

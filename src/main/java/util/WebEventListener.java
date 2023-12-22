@@ -1,11 +1,27 @@
 package util;
 
 import base.TestBase;
+import io.qameta.allure.Attachment;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 
 
 public class WebEventListener extends TestBase implements WebDriverEventListener {
+
+    @Attachment(value = "Page screenshot", type = "image/png")
+    public byte[] saveScreenshotPNG(WebDriver driver){
+        return ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+    }
+
+    @Attachment(value = "{0}", type = "text/plain")
+    public static String saveTextLog(String message){
+        return message;
+    }
+
+    @Attachment(value = "{0}", type = "text/html")
+    public static String attachHtml(String html){
+        return html;
+    }
 
     @Override
     public void beforeAlertAccept(WebDriver driver) {
@@ -120,6 +136,10 @@ public class WebEventListener extends TestBase implements WebDriverEventListener
     @Override
     public void onException(Throwable throwable, WebDriver driver) {
         System.out.println("Exception occurred: " + throwable);
+        if (driver instanceof WebDriver){
+            System.out.println("Screenshot captured for test case:" );
+            saveScreenshotPNG(driver);
+        }
         /*try{
             util.TestUtil.takeScreenShotAtEndOfTest();
         } catch (IOException e){
