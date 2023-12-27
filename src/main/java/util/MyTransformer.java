@@ -1,4 +1,4 @@
-package util;
+package main.java.util;
 
 import org.testng.IAnnotationTransformer;
 import org.testng.annotations.ITestAnnotation;

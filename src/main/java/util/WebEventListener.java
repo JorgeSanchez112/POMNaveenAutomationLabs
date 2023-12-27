@@ -1,7 +1,7 @@
-package util;
+package main.java.util;
 
-import base.TestBase;
 import io.qameta.allure.Attachment;
+import main.java.base.TestBase;
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.events.WebDriverEventListener;
 

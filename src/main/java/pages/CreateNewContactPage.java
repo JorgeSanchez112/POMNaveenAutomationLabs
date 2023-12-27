@@ -1,6 +1,7 @@
-package pages;
+package main.java.pages;
 
-import base.TestBase;
+
+import main.java.base.TestBase;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;

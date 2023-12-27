@@ -1,12 +1,13 @@
-package testcases;
+package test.java.testcases;
 
-import base.TestBase;
+import main.java.base.TestBase;
+import main.java.pages.*;
+import main.java.util.TestUtil;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-import pages.*;
 
 public class CreateNewContactPageTest extends TestBase {
 
@@ -40,7 +41,7 @@ public class CreateNewContactPageTest extends TestBase {
 
     @DataProvider
     public Object[][] getCRMTestData(){
-        Object data[][] = util.TestUtil.getTestData(sheetName);
+        Object data[][] = TestUtil.getTestData(sheetName);
         return data;
     }
 

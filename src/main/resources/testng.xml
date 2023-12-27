@@ -5,13 +5,13 @@
 <suite name="FREE CRM Application Test Automation Test Suite">
 
     <listeners>
-        <listener class-name="extentReportListener.ExtentReportNG"/>
-        <listener class-name="util.MyTransformer"/>
+        <listener class-name="main.java.extentReportListener.ExtentReportNG"/>
+        <listener class-name="main.java.util.MyTransformer"/>
     </listeners>
     
     <test name="FRee CRM APP Test Cases">
         <classes>
-            <class name="testcases.LoginPageTest"/>
+            <class name="test.java.testcases.LoginPageTest"/>
         </classes>
     </test>
 

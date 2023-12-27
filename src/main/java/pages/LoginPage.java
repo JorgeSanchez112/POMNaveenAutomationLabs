@@ -1,7 +1,8 @@
-package pages;
+package main.java.pages;
 
-import base.TestBase;
 import io.qameta.allure.Step;
+import main.java.base.TestBase;
+import main.java.util.TestUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -31,7 +32,7 @@ public class LoginPage extends TestBase {
 
     @Step("Verifying google login is displayed step")
     public boolean validateAccessWithGoogle(){
-        util.TestUtil.switchToFrameForIndex(0);
+        TestUtil.switchToFrameForIndex(0);
         return accessWithGoogle.isDisplayed();
     }
 

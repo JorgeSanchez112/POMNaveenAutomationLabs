@@ -1,4 +1,4 @@
-package extentReportListener;
+package main.java.extentReportListener;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;

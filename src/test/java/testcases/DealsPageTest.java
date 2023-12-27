@@ -1,14 +1,14 @@
-package testcases;
+package test.java.testcases;
 
-import base.TestBase;
+import main.java.base.TestBase;
+import main.java.pages.DealsPage;
+import main.java.pages.HomePage;
+import main.java.pages.IndexPage;
+import main.java.pages.LoginPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import pages.DealsPage;
-import pages.HomePage;
-import pages.IndexPage;
-import pages.LoginPage;
 
 public class DealsPageTest extends TestBase {
     DealsPage dealsPage;

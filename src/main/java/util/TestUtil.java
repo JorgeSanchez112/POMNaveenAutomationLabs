@@ -1,4 +1,4 @@
-package util;
+package main.java.util;
 
 import org.apache.commons.compress.archivers.dump.InvalidFormatException;
 import org.apache.commons.io.FileUtils;
@@ -19,7 +19,7 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 
-import static base.TestBase.driver;
+import static main.java.base.TestBase.driver;
 
 public class TestUtil {
 

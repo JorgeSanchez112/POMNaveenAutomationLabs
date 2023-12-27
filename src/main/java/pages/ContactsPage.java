@@ -1,6 +1,7 @@
-package pages;
+package main.java.pages;
 
-import base.TestBase;
+import main.java.base.TestBase;
+import main.java.util.TestUtil;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -65,7 +66,7 @@ public class ContactsPage extends TestBase {
     }
 
     public CreateNewContactPage clickOnCreateButton(){
-        util.TestUtil.elementWait(driver,buttons.get(2));
+        TestUtil.elementWait(driver,buttons.get(2));
         buttons.get(2).click();
         return new CreateNewContactPage();
     }

@@ -5,10 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b79928f-8e0c-4df7-8d65-02d8d082c4c7" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/PageBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/PageBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/base/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/base/TestBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/extentReportListener/ExtentReportNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/extentReportListener/ExtentReportNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ContactsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ContactsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/CreateNewContactPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/CreateNewContactPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/DealsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/DealsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/IndexPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/IndexPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/TasksPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/TasksPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/MyTransformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/MyTransformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/RetryAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/RetryAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/TestUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/TestUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/util/WebEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/util/WebEventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/ContactsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/ContactsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/CreateNewContactPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/CreateNewContactPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/DealsPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/DealsPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/HomePageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/IndexPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/IndexPageTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/testcases/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/testcases/TasksPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/testcases/TasksPageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,10 +64,11 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jorge/IdeaProjects/POMNaveenAutomationLabs&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Jorge/IdeaProjects/PracticeDemoQA&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
